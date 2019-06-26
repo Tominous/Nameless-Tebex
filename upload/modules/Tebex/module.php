@@ -89,9 +89,9 @@ class Tebex_Module extends Module {
 
 		// Hooks
 		// TODO
-		// HookHandler::registerEvent('userPurchaseBuycraftPackage', $this->_buycraft_language->get('language', 'purchase_hook_info'));
-		// HookHandler::registerEvent('newBuycraftCoupon', $this->_buycraft_language->get('language', 'new_coupon_hook_info'));
-		// HookHandler::registerEvent('newBuycraftGiftCard', $this->_buycraft_language->get('language', 'new_gift_card_hook_info'));
+		 HookHandler::registerEvent('userPurchaseBuycraftPackage', $this->_buycraft_language->get('language', 'purchase_hook_info'));
+		 HookHandler::registerEvent('newBuycraftCoupon', $this->_buycraft_language->get('language', 'new_coupon_hook_info'));
+		 HookHandler::registerEvent('newBuycraftGiftCard', $this->_buycraft_language->get('language', 'new_gift_card_hook_info'));
 
 		// Classes
 		require_once(ROOT_PATH . '/modules/Tebex/classes/Buycraft.php');
